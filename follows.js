@@ -146,8 +146,8 @@
 						 			// Build Graph
 									var graph = new Rickshaw.Graph( {
 										element: document.querySelector('#graph-' + feedId + '-' + datastream.id),
-										width: 600,
-										height: 175,
+										width: 300,
+										height: 150,
 										renderer: 'area',
 										color: '3366CC',
 										min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
