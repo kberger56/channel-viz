@@ -15,9 +15,9 @@
 	var defaultKey		= 'GaW1RFM0TKJjgbK3ST8KWqFJmSSO4ociCiKHacIMKlWswkra', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [576550379], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Temperature Sensor Readings', // Replaces Xively logo in the header
-		dataDuration	= '15days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 120, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
+		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
